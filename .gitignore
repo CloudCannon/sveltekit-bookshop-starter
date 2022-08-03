@@ -1,0 +1,14 @@
+_site
+.sass-cache
+vendor
+_vendor
+node_modules
+bookshop-live.js
+bookshop-hosted.js
+*.wasm
+bookshop.css
+_gen
+.DS_Store
+build
+.svelte-kit
+package

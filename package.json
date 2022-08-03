@@ -1,0 +1,33 @@
+{
+  "name": "sveltekit-bookshop-starter",
+  "private": true,
+  "type": "module",
+  "description": "A starter template for SvelteKit with Bookshop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudCannon/sveltekit-bookshop-starter.git"
+  },
+  "author": "CloudCannon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CloudCannon/sveltekit-bookshop-starter/issues"
+  },
+  "homepage": "https://github.com/CloudCannon/sveltekit-bookshop-starter#readme",
+  "scripts": {
+    "start": "vite dev",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "latest",
+    "@sveltejs/kit": "latest",
+    "svelte": "^3.44.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^12.2.0",
+    "@bookshop/browser": "3.3.0-sveltekitbeta.3",
+    "@bookshop/generate": "3.3.0-sveltekitbeta.3",
+    "@bookshop/svelte-engine": "3.3.0-sveltekitbeta.3",
+    "@bookshop/sveltekit-bookshop": "3.3.0-sveltekitbeta.3",
+    "@cloudcannon/svelte-connector": "^1.0.3",
+    "vite": "^3.0.0"
+  }
+}
