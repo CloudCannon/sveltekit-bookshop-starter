@@ -12,11 +12,9 @@ To see the component browser locally: (in another terminal)
 ```bash
 npx @bookshop/browser
 ```
-You can now load `/components` on your site and see the component library.
-
-If building on CloudCannon, this page will also show a hosted version of the component library.
+You can now load the component library at the provided port.
 
 ## Structure
-The bookshop components live in `component-library`, which is defined as an alias for $components in `vite.config.js`
+The bookshop components live in `component-library`, which is defined as an alias for $bookshop in `vite.config.js`
 
 To learn more, read the [Bookshop SvelteKit Guide](https://github.com/CloudCannon/bookshop/blob/main/guides/sveltekit.adoc).
