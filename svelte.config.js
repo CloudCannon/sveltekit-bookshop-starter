@@ -5,6 +5,8 @@ const config = {
 		adapter: adapter(),
 		prerender: {
 			handleHttpError: 'warn',
+			crawl: true,
+			entries: ['/', '*']
 		}
 	}
 };
